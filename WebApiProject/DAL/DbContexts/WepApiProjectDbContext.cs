@@ -16,7 +16,7 @@ namespace DAL.DbContexts
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            base.OnConfiguring(optionsBuilder.UseSqlServer("Server=TRAYTL0279\\SQLEXPRESS;Database=WebApiProject;Trusted_Connection=True;"));
+            base.OnConfiguring(optionsBuilder.UseSqlServer("Server=localhost;Database=WebApiProject;Trusted_Connection=True;"));
         }
 
 
